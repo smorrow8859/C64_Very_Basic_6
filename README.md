@@ -1,0 +1,14 @@
+# C64_Very_Basic_6
+
+1 rem get example 1.6
+2 rem 10/8/16
+4 :
+10 printchr$(147)
+20 print"press space to see a message"
+30 geta$
+40 ifa$=""then30
+50 ifa$=chr$(32)then70
+60 goto30
+70 print"you did great!"
+80 stop
+90 print"continue"
