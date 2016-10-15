@@ -1,4 +1,4 @@
-C64_Very_Basic_Dim_Example
+# C64_Very_Dim_Example
 
 5 printchr$(147)
 10 dimx(10,5),a(10)
